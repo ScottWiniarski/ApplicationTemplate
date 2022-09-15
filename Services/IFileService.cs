@@ -7,5 +7,6 @@
 public interface IFileService
 {
     void Read();
-    void Write();
+    void Write(ulong movieId, string movieTitle, string genresString);
+    void Display();
 }
